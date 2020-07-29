@@ -1,0 +1,70 @@
+<div class="main_pic">
+<div class="container">
+<div class="row">
+<div class="col-sm-3">   
+<!-- <div class="com"><button routerLink="/student-view">click here to view content</button></div>  -->
+<div class="com logout"><a class="nav-link" (click)="authService.SignOut()">
+ <button>Log out</button>
+</a></div>
+</div>
+<div class="grid col-sm">
+ <div  class="row">
+     <div class='offset-1 col-sm-3'>
+        <mat-card class="example-card">
+            <img mat-card-image src="../../../assets/images/cse.PNG" >
+            <mat-card-content>
+                <div class="com" routerLink="/semester"> <button>CSE</button></div>
+            </mat-card-content>
+       </mat-card>
+    </div>
+     <div class="col-sm-3">
+        <mat-card class="example-card">
+            <img mat-card-image src="../../../assets/images/ece.PNG" >
+            <mat-card-content>
+                <div class="com" routerLink="/semester"><button>ECE</button></div>
+            </mat-card-content>
+            </mat-card>
+          
+     </div>
+     <div class="col-sm-3">
+        <mat-card class="example-card">
+        <img mat-card-image src="../../../assets/images/eee.PNG" >
+            <mat-card-content>
+                <div class="com" routerLink="/semester"><button>EEE</button></div>
+            </mat-card-content>
+        </mat-card>
+     </div>
+   </div>
+   <br><br>
+   <div class="row">
+       <div class="offset-1 col-sm-3">
+        <mat-card class="example-card">
+            <img mat-card-image src="../../../assets/images/civil.PNG" >
+                <mat-card-content>
+                    <div class="com" routerLink="/semester"> <button>CIVIL</button></div>
+                </mat-card-content>
+            </mat-card>
+       </div>
+       <div class="col-sm-3">
+        <mat-card class="example-card">
+        <img mat-card-image src="../../../assets/images/mech.PNG" >
+            <mat-card-content>
+                <div class="com" routerLink="/semester"><button>MECH</button></div>
+            </mat-card-content>
+        </mat-card>
+     </div>
+     <div class="col-sm-3">
+        <mat-card class="example-card">
+        <img mat-card-image src="../../../assets/images/it.PNG" >
+            <mat-card-content>
+                <div class="com" routerLink="/semester"><button>IT</button></div>
+            </mat-card-content>
+        </mat-card>
+     </div>
+   
+   </div>
+  </div>
+</div>
+  </div>
+  </div>
+  

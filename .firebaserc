@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "idanilkodeboina": {
+      "hosting": {
+        "angularfirebase-authentication": [
+          "idanilkodeboina"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "idanilkodeboina"
+  }
+}

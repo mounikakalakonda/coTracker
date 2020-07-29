@@ -1,0 +1,43 @@
+.main_pic {
+    background-image: url("../../../assets/images/fac_dash_back.png");
+    height: 99vh;
+    overflow: auto;
+    background-size: 101%;
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+.grid
+{
+    margin-top:125px;
+    /* border-color: rgb(255, 255, 255); */
+}
+.example-card {
+    
+    max-width: 200px;
+    /* border-radius: 5px;
+    border: 1px solid rgb(153, 153, 153); */
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+  
+
+
+
+mat-grid-tile
+{
+    background-color: royalblue;
+    height:50px;
+    width:50px;
+    padding-left: 30px;
+}
+.logout{
+
+    top:10px;
+    left:900px;
+    height:20%;
+    width:10px;
+    position: relative;
+}

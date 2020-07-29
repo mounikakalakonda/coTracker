@@ -1,0 +1,132 @@
+.main_page {
+    background-image: url("../../../assets/images/main.png");
+    height: 99vh;
+    overflow: auto;
+    background-size: 101%;
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.sB {
+    position: absolute;
+    right: 34.5%;
+    top: 52%;
+}
+
+.fB {
+    position: absolute;
+    left: 35.8%;
+    top: 51.9%;
+}
+
+.com.ref1, .com.ref2, .com.ref3 {
+    margin-left: 150px;
+    margin-top: 50px;
+    position : relavtive;
+
+}
+.com.ref1{
+    margin-top:220px;
+}
+
+
+
+/* .main_page img{
+    max-width: 100%;
+    height: 539px;
+    padding-left: 230px;
+   
+   }
+   .com button{
+     background-color: #07a8ec;
+     border: #07a8ec;
+     border-radius: 25px ;
+     height: 40px;
+     width: 150px;
+     color:white;
+     font-size: larger;
+     font-family: sans-serif;
+   }
+   .main_page {
+       background-image: url("../../../assets/images/main.png");
+       height: 99vh;
+       overflow: auto;
+       background-size: 101%;
+       background-position: right top;
+       background-repeat: no-repeat;
+   }
+   
+   
+   .access-btn {
+       position: absolute;
+       right: 50%;
+       top: 90%;
+   }
+   .fB{
+     position: absolute;
+     right: 30%;
+     top: 90%;
+   }
+   .fb2{
+     position: absolute;
+     right: 10%;
+     top: 85%;
+     padding:1em 2em;
+   
+   }
+   
+   .com.ref1 {
+       margin-left: 5%;
+   
+       padding: 1em;
+           margin-top:36%;
+   
+   }
+   @media (max-width: 768px) {
+     .com.ref1 {
+       margin-left: 0%;
+   
+       padding: 1em;
+           margin-top:33%;
+   
+     }
+     .com button{
+       background-color: #07a8ec;
+       border: #07a8ec;
+       border-radius: 25px ;
+       height: 30px;
+       width: 100px;
+       color:white;
+       font-size: 15px;
+       font-family: sans-serif;
+     }
+   
+   }
+   @media (max-width: 576px) {
+   
+     .com.ref1 {
+       margin-left: -2%;
+   
+       padding: 1em;
+           margin-top:30%;
+   
+     }
+     .com button{
+       background-color: #07a8ec;
+       border: #07a8ec;
+       border-radius: 25px ;
+       height: 20px;
+       width: 80px;
+       color:white;
+       font-size: 10px;
+       font-family: sans-serif;
+     }
+     .fb2{
+       position: absolute;
+       right: 18%;
+       top: 85%;
+       padding:1em 2em;
+   
+     }
+   
+   } */

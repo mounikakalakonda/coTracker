@@ -1,0 +1,8 @@
+.displayTable {
+    background-image: url("../../../assets/images/log2.png");
+    height: 99vh;
+    overflow: auto;
+    background-size: 100%;
+    background-position: left top;
+    background-repeat: no-repeat; 
+}

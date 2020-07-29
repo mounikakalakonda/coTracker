@@ -1,0 +1,21 @@
+<div class="container">
+
+  <div class="row">
+    
+      
+    
+ <div  class="col-sm-5">   
+<div class="dropzone" 
+     dropzone
+     (hovered)="toggleHover($event)"
+     (dropped)="onDrop($event)"
+     [class.hovering]="isHovering">
+     <div class="info"><h3>Drag And Drop your File</h3></div>
+</div>
+
+</div>
+</div>
+<div *ngFor="let file of files">
+  <upload-task [file]="file"></upload-task>
+</div>
+</div>

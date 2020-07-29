@@ -1,0 +1,23 @@
+.grid
+{
+    margin-top:125px;
+    /* border-color: black; */
+}
+.example-card {
+    
+    max-width: 200px;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+  mat-grid-tile
+{
+    background-color: royalblue;
+    height:50px;
+    width:50px;
+    padding-left: 30px;
+}

@@ -1,0 +1,28 @@
+<div class="main">
+    <div class="com" style="float: right; margin-top:20px;left:-20px"><button  (click)="authService.SignOut()">Log out</button></div>
+  <div class="subject">
+    <div class="s1"><label ><h3>SUBJECT NAME</h3></label></div>
+    <div class="s2">
+    <select (change)="retrieve($event.target.value)">
+      <option>Choose</option>
+      <option value="C Language">C Language</option>
+      <option value="Chemistry">Chemistry</option>
+      <option value="English">English</option>
+      <option value="M1">M1</option>
+      <option value="M2">M2</option>
+      <option value="Physics-I">Physics-I</option>
+      <option value="Physics-II">Physics-II</option>
+    </select></div>
+  </div>
+  
+  </div>
+<div class="view">
+  <h3>Topics</h3>
+  <div class="b1"><ol>
+    <li class="text" *ngFor="let student of subject1 | async">
+      {{student.topic}}
+      <a href="{{student.downloadURL}}">
+        <button><p>view</p></button></a>
+    </li>
+  </ol></div>
+</div>

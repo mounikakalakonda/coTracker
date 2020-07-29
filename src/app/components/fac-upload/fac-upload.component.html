@@ -1,0 +1,25 @@
+<div class="main">
+    <div class="com">   <button  style="top:15px;left:-20px"class="log" (click)="authService.SignOut()">Logout</button></div>
+    <div class="subject">
+   
+    <div class="s1"><label ><h3>SUBJECT NAME</h3></label></div>
+    <div class="s2">
+    <select (change)="onChange($event.target.value)">
+      <option>Choose</option>
+      <option value="C Language">C Language</option>
+      <option value="Chemistry">Chemistry</option>
+      <option value="English">English</option>
+      <option value="M1">M1</option>
+      <option value="M2">M2</option>
+      <option value="Physics-I">Physics-I</option>
+      <option value="Physics-II">Physics-II</option>
+    </select></div>
+  </div>
+  <div class="topic">
+  <input #box (keyup.enter)="onEnter(box.value)" placeholder="Enter topic name">
+  <p>{{value}}</p>
+  <h3>Click on enter after topic name is entered</h3>
+</div>
+   <div class="upload"> <uploader></uploader>  
+ <upload-task></upload-task></div>
+</div>

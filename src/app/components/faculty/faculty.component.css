@@ -1,0 +1,16 @@
+.main_page {
+    background-image: url("../../../assets/images/fac_dash_back.png");
+    height:99vh;
+    overflow: auto;
+    background-size: 101%;
+    background-position: right left;
+    background-repeat: no-repeat; 
+}
+
+.up button{
+ width: 260px;
+ bottom: 2px;
+ position: relative;
+ left: 200px;
+ 
+}
